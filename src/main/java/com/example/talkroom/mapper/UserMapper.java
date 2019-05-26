@@ -42,9 +42,9 @@ public interface UserMapper {
 
     /**
      * 通过名字得到用户
-     * @param
+     * @param name
      * @return
      */
     @Select("select id from user where name=#{name}")
-    Integer getUser(String name);
+    String getUser(String name);
 }

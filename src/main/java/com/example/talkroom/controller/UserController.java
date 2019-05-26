@@ -3,7 +3,6 @@ package com.example.talkroom.controller;
 import com.example.talkroom.bean.User;
 import com.example.talkroom.service.UserServiceImpl;
 import com.example.talkroom.utils.ToCast;
-import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
